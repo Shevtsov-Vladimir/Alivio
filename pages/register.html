@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <style>
+        fieldset {
+            width: 40%;
+            height: 30%;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Sign up</legend>
+
+        <form action="/php/check.php" class="form" method="post">
+            <label for="#login">Login:</label>
+            <input type="text" name="login" id="login" min="0" max="90" placeholder="Enter your username">
+            <label for="pswd">Password:</label>
+            <input type="password" id="pswd" name="password" min="6" max="18" placeholder="Enter your password">
+            <input type="submit" value="Send">
+            <a href="sign-in.html">Sign in</a>
+        </form>
+    </fieldset>
+
+</body>
+</html>
